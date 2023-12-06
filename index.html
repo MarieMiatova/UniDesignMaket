@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniDesign</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" />
+    <script type="module" src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <a class="header__logo-link" href="./">UniDesign</a>
+        </div>
+
+        <nav class="header__nav">
+          <a class="header__nav-link" href="#about">About Me</a>
+          <a class="header__nav-link" href="#projects">Projects</a>
+          <a class="header__nav-link" href="#contacts">Contacts</a>
+          <a class="header__nav-link" href="#hireMe">Hire Me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hire-me" id="hireMe">
+        <div class="container">
+          <div class="hire-me__info">
+            <h3 class="hire-me__welcom">Welcome To My PortFolio</h3>
+            <h2 class="hire-me__title">Hi , I am Steven UI/UX <span>Desginer</span></h2>
+            <p class="hire-me__description">
+              Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat
+              est sed turpis hoc equit
+            </p>
+            <div class="hire-me__buttons">
+              <button class="button">Hire Me</button>
+              <button class="button button_light">My Project</button>
+            </div>
+          </div>
+
+          <figure class="hire-me__figure">
+            <img src="./image/photo.jpg" alt="photo" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title">About Me</h2>
+          <p class="about__description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book. It has .
+          </p>
+          <div class="about__buttons">
+            <button class="button">Hire Me</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="projects__title">My Projects</h2>
+          <p class="projects__description">Lorem Ipsum is simply dummy text of the printing</p>
+
+          <div class="projects__list">
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-1.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-2.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-1.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-3.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-3.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-3.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-4.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-4.jpg" alt="project" />
+            </figure>
+
+            <figure class="projects__list-figure">
+              <img class="projects__list-figure-image" src="./image/project-4.jpg" alt="project" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <h2 class="contacts__title">Contact Me</h2>
+
+          <p class="contacts__description">Lorem Ipsum is simply dummy text of the printing</p>
+
+          <form class="contacts__form">
+            <input
+              class="contacts__form-input"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+
+            <input
+              class="contacts__form-input"
+              name="password"
+              type="password"
+              placeholder="Password"
+              required
+            />
+
+            <textarea
+              class="contacts__form-textarea"
+              name="message"
+              placeholder="Message..."
+              required
+            ></textarea>
+
+            <fieldset class="contacts__form-buttons">
+              <button class="contacts__form-button">Contact</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <div class="footer__logo">
+            <a class="footer__logo-link" href="#">UniDesign</a>
+          </div>
+
+          <form class="footer__form">
+            <input
+              class="footer__form-input"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <button class="footer__form-button">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer__menu">
+          <div class="footer__menu-item">
+            <h4 class="footer__menu-item-title">Platform</h4>
+
+            <nav class="footer__nav">
+              <a class="footer__nav-item" href="#">Home</a>
+              <a class="footer__nav-item" href="#">Overview</a>
+              <a class="footer__nav-item" href="#">Pricing</a>
+              <a class="footer__nav-item" href="#">About</a>
+            </nav>
+          </div>
+
+          <div class="footer__menu-item">
+            <h4 class="footer__menu-item-title">Help</h4>
+
+            <nav class="footer__nav">
+              <a class="footer__nav-item" href="#"> How It Works?</a>
+              <a class="footer__nav-item" href="#"> Pay?</a>
+              <a class="footer__nav-item" href="#"> Question?</a>
+              <a class="footer__nav-item" href="#"> Contact?</a>
+            </nav>
+          </div>
+
+          <div class="footer__menu-item">
+            <h4 class="footer__menu-item-title">Contact</h4>
+
+            <div class="footer__nav">
+              <a class="footer__nav-item" href="tel:+00012346789">(+000) 1234-6789</a>
+              <div class="footer__nav-item">116 Archlor Road Broadlaband, NewYork (NYC) 1205</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copirights">
+          <div class="footer__copirights-text">CopyRighted 2020-2023 All Rights Reserved.</div>
+
+          <div class="footer__social">
+            <a
+              class="footer__social-link footer__social-link_youtube"
+              href="https://www.youtube.com/"
+            ></a>
+            <a
+              class="footer__social-link footer__social-link_instagram"
+              href="https://www.instagram.com/"
+            ></a>
+            <a
+              class="footer__social-link footer__social-link_facebook"
+              href="https://www.facebook.com/"
+            ></a>
+            <a
+              class="footer__social-link footer__social-link_linkedin"
+              href="https://www.linkedin.com/"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
