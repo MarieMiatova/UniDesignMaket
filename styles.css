@@ -74,7 +74,7 @@ ul {
 }
 
 .header {
-  padding: 190px 0 79px;
+  padding: 45px 0 79px;
 }
 .header .container {
   display: flex;
@@ -91,7 +91,7 @@ ul {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 72px;
 }
 .header__nav {
   display: flex;
@@ -103,7 +103,7 @@ ul {
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 45px;
 }
 
 .hire-me {
